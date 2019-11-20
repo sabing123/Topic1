@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         btncalculate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int first, second, cal;
+                float first, second, cal;
                 first = Integer.parseInt(etfirstnum.getText().toString());
                 second = Integer.parseInt(etsecondnum.getText().toString());
 
